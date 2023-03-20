@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Machine à friandise</title>
+    <script src="node_modules/web3.js-browser/build/web3.min.js"></script>
+    <script src="scriptFriandise.js" defer></script>
+    <link rel="stylesheet" href="monCss.css">
+
+  </head>
+  <body>
+    <!--<div id="testWEB3">OUIIII </div>-->
+    <table class="principal">
+          
+          <thead>
+              <th colspan="10">Machine à friandise par la blockchain </th>
+              <button type="button" onclick="misAJourBlockchain()"> MàJ Blockchain</button>
+          </thead>
+
+          <tbody>
+              <tr>
+                <td colspan="4" class="machine_1" id="machine_1"> 
+                  
+                </td>
+
+                <td>DEPLOIEMENT D'UNE MACHINE A FRIANDISE 
+
+                  <form id="form" action="" >
+                      Adresse : <input type="adresse" id="adresse" name="adresse"><br>
+                      <!--Clef privée : <input type="keyPrivate" id="keyPrivate" name="keyPrivate" ><br>-->
+                      <button type="button" onclick="deploiementMachine()">Deploiement machine </button>
+                  </form>
+                </td>
+
+                <td colspan="4" class="machine_2" id="machine_2">
+                </td>
+              </tr>
+
+
+              <tr id="utilisateur">
+                <!--<td colspan="2">
+                    <div class="clefPrivate" id="clefPrivate_1">
+                      KeyPrivate : 
+                    </div>
+                    <div class="nonce" id="nonce_1">Nonce : </div>
+                    <div class="balance" id="balance_1">Eth : </div>
+                    <div class="codeHash" id="codeHash_1">codeHash : </div>
+                    <div class="adresse" id="adresse_1">Adr : </div>
+                    <div class="panier" id="panier_1">
+                    </div>
+                </td>
+                <td colspan="2">
+                    <div class="clefPrivate" id="clefPrivate_2">KeyPrivate : </div>
+                    <div class="nonce" id="nonce_2">Nonce : </div>
+                    <div class="balance" id="balance_2">Eth : </div>
+                    <div class="codeHash" id="codeHash_2">codeHash : </div>
+                    <div class="adresse" id="adresse_2">Adr : </div>
+                    <div class="panier" id="panier_2">
+                    </div>
+                  </td>
+                <td colspan="2">
+                    <div class="clefPrivate" id="clefPrivate_3">KeyPrivate : </div>
+                    <div class="nonce" id="nonce_3">Nonce : </div>
+                    <div class="balance" id="balance_3">Eth :</div>
+                    <div class="codeHash" id="codeHash_3">codeHash</div>
+                    <div class="adresse" id="adresse_3">Adr : </div>
+                    <div class="panier" id="panier_3">
+                    </div>
+                  </td>
+                <td colspan="2">
+                    <div class="clefPrivate" id="clefPrivate_4">KeyPrivate : </div>
+                    <div class="nonce" id="nonce_4">Nonce : </div>
+                    <div class="balance" id="balance_4">Eth : </div>
+                    <div class="codeHash" id="codeHash_4">codeHash</div>
+                    <div class="adresse" id="adresse_4">Adr : </div>
+                    <div class="panier" id="panier_4">
+                    </div>
+                  </td>
+                <td colspan="2">
+                    <div class="clefPrivate" id="clefPrivate_5">KeyPrivate : </div>
+                    <div class="nonce" id="nonce_5">Nonce : </div>
+                    <div class="balance" id="balance_5">Eth : </div>
+                    <div class="codeHash" id="codeHash_5">codeHash : </div>
+                    <div class="adresse" id="adresse_5">Adr : </div>
+                    <div class="panier" id="panier_5">
+                    </div>
+                  </td>-->
+              </tr>
+
+
+              <tr>
+                <td colspan="10" >TEST
+                  <table style="width=100%;">
+                    <tr id="blockchain">
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+
+          </tbody>
+    </table>
+  </body>
+</html>
+
